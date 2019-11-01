@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_emergencyhome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_what"
+            android:icon="@drawable/ic_launcher_what2_foreground"
+            android:title="@string/menu_what" />
+        <item
+            android:id="@+id/nav_how"
+            android:icon="@drawable/ic_launcher_how_foreground"
+            android:title="@string/menu_how" />
+        <item
+            android:id="@+id/nav_where"
+            android:icon="@drawable/ic_launcher_where_foreground"
+            android:title="@string/menu_where" />
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

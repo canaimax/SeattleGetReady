@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Seattle Get Ready!!!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Seattle Get Ready</string>
+    <string name="nav_header_subtitle">Earhquake Info Help</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setting</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_what">What Do I Do?</string>
+    <string name="menu_how">How Do I Do It?</string>
+    <string name="menu_where">Where Do I Go?</string>
+
+    <string name="menu_send">Contact</string>
+    <string name="title_activity_what">Earthquake\'s What To Do</string>
+    <string name="title_activity_how">Earthquake\'s How To Do It</string>
+    <string name="title_activity_where">Earthquake\'s Where To Go</string>
+</resources>

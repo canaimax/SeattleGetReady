@@ -23,7 +23,7 @@
         android:id="@+id/greets"
         android:layout_width="396dp"
         android:layout_height="62dp"
-        android:background="#ede3db"
+        android:background="#b0e0e6"
         android:gravity="center"
         android:text="Your Earthquake Manual!"
         android:textColor="@android:color/black"

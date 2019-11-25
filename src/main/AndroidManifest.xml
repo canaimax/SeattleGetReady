@@ -3,7 +3,7 @@
     package="com.cap.seattlegetready">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -13,9 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".MedNeedsAct"
+            android:label="@string/title_activity_med_needs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BuildKitAct"
+            android:label="@string/title_activity_build_kit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StaySafeAct"
+            android:label="@string/title_activity_stay_safe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StoreWaterAct"
+            android:label="@string/title_activity_store_water"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".WhereActivity"
             android:label="@string/title_activity_where"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HowActivity"
             android:label="@string/title_activity_how"

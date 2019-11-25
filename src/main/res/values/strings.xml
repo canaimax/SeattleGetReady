@@ -16,4 +16,8 @@
     <string name="title_activity_what">Earthquake\'s What To Do</string>
     <string name="title_activity_how">Earthquake\'s How To Do It</string>
     <string name="title_activity_where">Earthquake\'s Where To Go</string>
+    <string name="title_activity_store_water">Storing Water</string>
+    <string name="title_activity_stay_safe">Staying Safe</string>
+    <string name="title_activity_build_kit">Building A Kit</string>
+    <string name="title_activity_med_needs">Medical Needs</string>
 </resources>

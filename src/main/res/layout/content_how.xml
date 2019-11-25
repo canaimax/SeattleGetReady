@@ -8,4 +8,93 @@
     tools:context="com.cap.seattlegetready.HowActivity"
     tools:showIn="@layout/activity_how">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="399dp"
+        android:layout_height="116dp"
+        android:src="@drawable/seablueln"
+        app:layout_constraintBottom_toTopOf="@+id/greets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/howdobanner"
+        android:layout_width="396dp"
+        android:layout_height="62dp"
+        android:background="#b0e0e6"
+        android:gravity="center"
+        android:text="How To Get Ready"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/stayingsafe"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#e57375"
+        android:singleLine="false"
+        android:text="STAYING SAFE"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/howdobanner" />
+
+    <Button
+        android:id="@+id/buildINGakit"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#d8bdf2"
+        android:text="BUILDING A KIT"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stayingsafe"
+        app:layout_constraintTop_toBottomOf="@+id/howdobanner" />
+
+    <Button
+        android:id="@+id/medicalneeds"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#7ab7bf"
+        android:text="MEDICAL NEEDS"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/storingwater"
+        app:layout_constraintTop_toBottomOf="@+id/buildINGakit" />
+
+    <Button
+        android:id="@+id/storingwater"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffef9a"
+        android:text="STORING WATER"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stayingsafe" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,9 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".MedNeedsAct"
             android:label="@string/title_activity_med_needs"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BuildKitAct"
             android:label="@string/title_activity_build_kit"

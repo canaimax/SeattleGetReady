@@ -13,19 +13,16 @@ import android.view.View;
 import android.widget.TextView;
 
 
-public class StaySafeAct extends AppCompatActivity {
+public class ContactActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stay_safe);
+        setContentView(R.layout.activity_contact);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-
-
-        TextView textView = (TextView) findViewById(R.id.textView2);
+        TextView textView = (TextView) findViewById(R.id.textView6);
         textView.setMovementMethod(new ScrollingMovementMethod());
     }
 

@@ -8,4 +8,49 @@
     tools:context="com.cap.seattlegetready.BuildKitAct"
     tools:showIn="@layout/activity_build_kit">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="523dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:scrollbars = "vertical"
+        android:text="BUILDING A KIT \n\n
+        Putting together an emergency kit does not have to be difficult or expensive. We recommend that your kit has enough supplies to last you seven to 10 days. Its also could to have a smaller to-go kit in case you need to quickly leave your home. Having kits at work and in your car is also a good idea. To get you started, here are five things that are absolutely necessary to have in an emergency kit.
+Water
+
+    1 gallon per person per day
+    1/2 for drinking, 1/2 for cooking/sanitation
+
+Food
+
+    Store food that's high in calories and has a long shelf-life
+    Consider meal replacement bars, canned foods and dry food items that don't need to be cooked to eat
+    Make sure to include food you like to eat
+
+Light Source
+
+    Avoid candles to minimize fire risk
+    Include safe light options like a battery-powered flashlight with extra batteries or a hand-crank flashlight
+    Light sticks are a long-lasting source of light that are inexpensive and fits easily into any size bag
+
+Warm and Dry Clothes
+
+    Include at least one change of clothing
+    If you get wet, it's important that you get dry as soon as possible because moisture pulls heat away from your body (wool or synthetic clothing that wicks moisture away from your body is recommended)
+    To stay warm and dry you can also pack extra blankets, a tarp or rain gear
+
+First Aid Kit
+
+    Include items for basic care like adhesive bandages, antiseptic wipes, gauze pads, scissors, tweezers and pain-relief medication
+    Make sure to include medications and equipment specific to your needs
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

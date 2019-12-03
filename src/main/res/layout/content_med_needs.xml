@@ -8,4 +8,50 @@
     tools:context="com.cap.seattlegetready.MedNeedsAct"
     tools:showIn="@layout/activity_med_needs">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="364dp"
+        android:layout_height="545dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="42dp"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:scrollbars = "vertical"
+        android:text="MEDICAL NEEDS \n\n
+        It is important for individuals who rely on specific medical care to have a plan to ensure that a disaster does not impact their day to day care.  Think about your daily activities and how a disaster will impact your life. Think about what you are able to do independently and where you may need assistance. Keep in mind that your regular sources of information and resources may not be available after a disaster. Plan now for how you will meet your needs.
+Medications
+
+    Always have at least 7-10 day supply of all your medications
+    Store your medication in one location in their original containers.
+    Have a list of all your medications: name of medication, dose, frequency, and the name of the prescribing doctor
+
+Medical Supplies
+
+    Have an extra 7-10 day supply of any medical supplies you use, such as bandages, ostomy bags, or syringes
+
+Electrically powered medical equipment
+
+    For all medical equipment requiring electrical power - beds, breathing equipment, or infusion pumps, check with your medical supply company and get information regarding a back-up power source, such as a battery or generator.
+    Oxygen and breathing equipment
+    If you use oxygen, have an emergency supply (enough for 7-10 days)
+    Oxygen tanks should be securely braced so they do not fall over. Call your medical supply company regarding bracing instructions.
+    If you use breathing equipment, have a 7-10 day supply or more of tubing, solutions, medication, etc.
+
+Emergency Kit
+
+In the event that you have to leave your home, have a bag packed at all times that contains:
+
+    A medication list
+    Medical supplies for at least 7-10 days
+    Copies of vital medical papers such as insurance cards, power of attorney, etc.
+
+People who can help
+
+    An important part of being prepared for a disaster is planning with family, friends and neighbors.  Know who could walk to your home to assist you if other means of transportation are unavailable.
+    Discuss your disaster plans with your home health care provider
+    Keep a list handy of people who can help and their phone numbers.
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

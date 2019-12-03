@@ -8,4 +8,27 @@
     tools:context="com.cap.seattlegetready.StaySafeAct"
     tools:showIn="@layout/activity_stay_safe">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="554dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:scrollbars = "vertical"
+        android:text="STAY SAFE\n\n
+When the earth shakes, DROP to the ground, take COVER under a desk or table and HOLD on to the desk or table so it doesn't bounce away.
+
+Stay there until the shaking stops.
+
+Studies show that most earthquake injuries in the United States are caused by falling objects or people losing their footing during the shaking. Safety during an earthquake comes from taking quick action and finding a quake-safe place within 3 to 4 seconds. If you are in a place without a table your goal is to make sure that your head is not the tallest thing in the room. Start by getting low. If there is no table around you to get BENEATH, then think BESIDE (an inside wall or heavy furniture), or BETWEEN (rows of chairs) and take a quake-safe action quickly!
+
+Myth Buster!  Despite what some of us learned as children, doorways are NOT considered a safe place to be in an earthquake.  WHY?  It's hard to stay in the doorway during the shaking and typically there is a door in the doorway, which swings open and closed during the shaking, hitting whoever might taking refuge there.  Best to get low, cover your head and hang on!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

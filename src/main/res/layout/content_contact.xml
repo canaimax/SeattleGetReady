@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cap.seattlegetready.ContactActivity"
+    tools:showIn="@layout/activity_contact">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="357dp"
+        android:layout_height="525dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:scrollbars="vertical"
+        android:text="Contact Emergency Management\n\n
+Management and Administration\n\n
+
+Barb Graff\n
+Director\n
+Phone: 206-684-0437\n
+Email: barb.graff@seattle.gov\n\n
+
+Laurel Nelson\n
+Deputy Director\n
+Phone: 206-233-5075\n
+Email: laurel.nelson@seattle.gov\n\n
+
+Carrie Tittel\n
+Administrative Staff Assistant\n
+Phone: 206-233-1551\n
+Email: carrie.tittel@seattle.gov\n\n
+
+Chris Carmen\n
+Administrative Specialist\n
+Phone: 206-233-5076\n
+Email: chris.carmen@seattle.gov\n\n
+
+Public Education\n\n
+
+Email snap@seattle.gov for presentation requests.\n\n
+
+Matt Auflick\n
+Public Education and Outreach Coordinator\n
+Phone: 206-233-7122\n
+Email: matt.auflick@seattle.gov\n\n
+
+Melanie Cole\n
+Outreach and Training Specialist\n
+Phone: 206-233-5094\n
+Email: melanie.cole@seattle.gov\n\n
+
+Tey Thach\n
+Outreach and Training Specialist\n
+Phone: 206-615-0287\n
+Email: tey.thach@seattle.gov\n\n
+
+Volunteer Services\n\n
+
+Carrie Brazil\n
+Volunteer Coordinator\n
+Phone: 206-684-7722\n
+Email: Carrie.Brazil@seattle.gov\n
+Planning and Operations Management\n\n
+
+Ken Neafcy\n
+Operations Coordinator\n
+Phone: 206-233-5091\n
+Email: ken.neafcy@seattle.gov\n\n
+
+Lucia Schmit\n
+Planning Coordinator\n
+Phone: 206-233-3799\n
+Email: lucia.schmit@seattle.gov\n\n
+
+Debbie Goetz\n
+Community Planning Coordinator\n
+Phone: 206-684-0517\n
+Email: debbie.goetz@seattle.gov\n\n
+
+Ivan Lee\n
+Training and Exercise Coordinator\n
+Phone: 206-233-5096\n
+Email: ivan.lee@seattle.gov\n\n
+
+Recovery Management\n\n
+
+Erika Lund\n
+Recovery Coordinator\n
+Phone: 206-233-5089\n
+Email: erika.lund@seattle.gov\n\n
+
+Communications and Information Systems Management\n\n
+
+T.J. McDonald\n
+Technology Coordinator\n
+Phone: 206-233-5073\n
+Email: tj.mcdonald@seattle.gov\n\n
+
+Mark Sheppard\n
+Auxiliary Communications Services Coordinator\n
+Phone: 206-684-5027\n
+Email: mark.sheppard@seattle.gov\n
+Phone:206-233-5076\n
+Email:snap@seattle.gov\n
+Fax: 206-684-5998"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

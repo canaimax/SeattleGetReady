@@ -8,4 +8,31 @@
     tools:context="com.cap.seattlegetready.StoreWaterAct"
     tools:showIn="@layout/activity_store_water">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="554dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:scrollbars = "vertical"
+        android:text="STORING WATER \n\n
+        Water is essential for life. After a disaster, safe drinking water can be in short supply and those without it may find themselves waiting in long lines to get it. We recommend that every household store enough water for at least 7 to 10 days. Each person in your house requires 1 gallon per day. Half of that is for drinking, the other half is for cooking and sanitation. Before you do the math, remember you have a lot of water already stored in your house, which will be available if you have strapped down your water heater and turn off the water service to the house if there are broken water pipes.
+
+Even with that source, you should still store water. Storing water can be as easy as buying an extra case or two the next time you are at the store. You can also use old pop bottles, which are great for storing water. If you decide on this you should follow the steps outlined below to ensure that the water remains drinkable.
+
+    Make sure the bottle is clean. Put about 1/8 of a teaspoon of bleach and 2 cups of water in the bottle. Put the lid on and shake the bottle gently. Be sure to wash around the lid and the top of the bottle.
+    Empty and fill with fresh water all the way to the top of the bottle (leaving as little air space as possible). Screw the top on tight and label the bottle as 'emergency drinking water' (download a  1 Gallon
+
+  or 1 Liter
+ label). Make sure to put the date you filled the bottle on the label
+Empty and refill the bottles every 6 months (we recommend doing it when you change your clocks and check your fire alarms). Don't just pour the water down the drain, use it to water your plants, rinse your dishes or even drink it
+We don't recommend using glass bottles as they break easily during earthquakes. Plastic milk jugs are hard to seal and degrade quicker than plastic soda bottles. Stay away from bottles that have had bleach or other toxic chemicals in them"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

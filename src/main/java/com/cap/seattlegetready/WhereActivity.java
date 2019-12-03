@@ -48,10 +48,33 @@ public class WhereActivity extends AppCompatActivity {
 
         mapList.add(
                 new Maps(
-                        1, "EAST CENTRAL",
+                        3, "EAST CENTRAL",
                         "***HUB 129 - Queen Anne P-Patch - 3rd Ave N & Lynn St\n" +
                                  "***HUB 20 - West Queen Anne Playfield150 W Blaine St",
                         4, "QUEEN ANN", R.drawable.queenannz));
+
+        mapList.add(
+                new Maps(
+                        4, "NORTH WEST",
+                        "***HUB 35 - NW 57th & 22nd Ave NW\n" +
+                                "***HUB 100 - Olympic Sculpture Park - 2855 NW 58th St\n" +
+                                "***HUB 111 - Greg's Garden P-Patch - 14th Ave NW & NW 54th S",
+                        3, "BALLARDS", R.drawable.ballards));
+
+        mapList.add(
+                new Maps(
+                        5, "SOUTH WEST",
+                        "***HUB 17 - California Ave SW & SW Lander St\n" +
+                                "***HUB 16 - Alki Community Center 59th Ave SW & SW Stevens St" ,
+                        4, "WEST SEATTLE", R.drawable.westseattle));
+
+        mapList.add(
+                new Maps(
+                        6, "NORTH CENTRAL",
+                        "***HUB 38 - Lower Woodland PlayfieldsGreen Lake Way N & N 50th St\n" +
+                                "***HUB 33 - Green Lake Playfield & Community Center7201 Green Lake Dr N",
+                        2, "GREEN LAKE", R.drawable.greenlake));
+
 
 
         // Create...
